@@ -1,0 +1,17 @@
+lockfileVersion: '6.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .: {}
+
+  examples/app:
+    dependencies:
+      funny-cli:
+        specifier: workspace:*
+        version: link:../../packages/funny-cli
+
+  packages/funny-cli: {}

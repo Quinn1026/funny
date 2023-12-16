@@ -1,0 +1,15 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "funny": "funny"
+  },
+  "keywords": [],
+  "author": "Quinn",
+  "license": "ISC",
+  "dependencies": {
+    "funny-cli": "workspace:*"
+  }
+}

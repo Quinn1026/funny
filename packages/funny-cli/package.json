@@ -1,0 +1,14 @@
+{
+  "name": "funny-cli",
+  "version": "1.0.0",
+  "description": "一个简单的CLI工具",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Quinn",
+  "license": "ISC",
+  "bin": {
+    "funny": "./bin/index.js"
+  }
+}
